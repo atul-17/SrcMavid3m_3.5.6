@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="10dp"
+    android:background="@color/screen_bg"
+    android:orientation="vertical"
+    android:id="@+id/layout_dialog">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:text="@string/locationServicesIsOff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/tv_alert_title"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:fontFamily="sans-serif"
+        android:textSize="13sp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:layout_below="@+id/tv_alert_title"
+        android:id="@+id/tv_alert_message"
+        android:text="@string/enableLocation"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right|center"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/btn_app_mid_pink"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:text="Ok"
+        android:id="@+id/btn_ok"
+        />
+
+
+
+</RelativeLayout>

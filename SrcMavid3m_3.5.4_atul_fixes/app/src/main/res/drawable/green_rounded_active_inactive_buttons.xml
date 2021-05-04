@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:drawable="@drawable/green_color_rounded_drawable"/>
+
+    <item android:state_enabled="false" android:drawable="@drawable/green_light_rounded_drawable_button"/>
+
+</selector>

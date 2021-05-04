@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    >
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbarView"
+        />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@color/appbar_bg"
+        android:textAlignment="center"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/btn_app_mid_pink"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/btn_app_mid_pink"
+        app:tabTextColor="@color/light_gray" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/appliancesSelectionVp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabLayout"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameContent"
+        android:layout_below="@+id/tabLayout"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>

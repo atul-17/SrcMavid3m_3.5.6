@@ -1,0 +1,125 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file("irremote.jks")
+            storePassword "libre1234"
+            keyAlias "MyKey"
+            keyPassword "libre1234"
+        }
+    }
+
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.libre.irremote"
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode 1
+        multiDexEnabled true
+        //3. series has secure app changes
+        //update the App_Compatibility_Version in Constants class appropriately for each customer release
+        versionName "3.5.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+            signingConfig signingConfigs.release
+        }
+        debug {
+            debuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    implementation 'com.android.support:appcompat-v7:25.4.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'org.apache.commons:commons-lang3:3.4'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    //implementation project(':libresdk')
+    compile files('libs/login-with-amazon-sdk.jar')
+    implementation files('libs/libresdk-0.1.0')
+//    compile('com.crashlytics.sdk.android:crashlytics:2.5.1@aar') {
+//        transitive = true;
+//    }
+    implementation project(path: ':libresdk')
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.kyleduo.switchbutton:library:1.2.9'
+    // compile 'com.android.support:recyclerview-v7:21.0.+'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.github.IntruderShanky:Sectioned-RecyclerView:2.1.1'
+//    implementation 'com.robertlevonyan.view:CustomFloatingActionButton:2.1.0'
+    implementation 'com.github.dimorinny:floating-text-button:0.0.4'
+
+    implementation 'com.github.sembozdemir:ViewPagerArrowIndicator:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.github.danimahardhika:cafebar:1.2.0'
+
+    implementation 'com.google.code.gson:gson:2.6.2'
+    compile "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation 'br.com.simplepass:loading-button-android:2.2.0'
+
+    implementation 'com.poovam:pin-edittext-field:1.1.2'
+
+    implementation 'com.wang.avi:library:2.1.3'
+
+//    // Material Dialog Library
+//    implementation 'com.shreyaspatil:MaterialDialog:2.1'
+//
+//    // Lottie Animation Library
+//    implementation 'com.airbnb.android:lottie:3.4.0'
+
+
+    implementation 'com.github.dimorinny:floating-text-button:0.0.4'
+
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
+
+    implementation 'com.auth0.android:jwtdecode:2.0.0'
+
+     //viewpager 2
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+
+
+}
+//apply plugin: 'com.google.gms.google-services'

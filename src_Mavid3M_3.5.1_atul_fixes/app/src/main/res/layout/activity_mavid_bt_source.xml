@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.libre.irremote.DeviceSettingsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_title"
+                android:text="BtSource Setting"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="Toolbar Title"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_activescenes_toolbar_icon"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/margin"
+        android:background="@color/black"
+        />
+
+    <Button
+        android:id="@+id/BtSearchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Search BT Devices"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/BtSearchHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Please make sure BT devices is turned ON"
+        android:textAllCaps="false"
+        android:layout_below="@+id/BtSearchBtn"/>
+</RelativeLayout>

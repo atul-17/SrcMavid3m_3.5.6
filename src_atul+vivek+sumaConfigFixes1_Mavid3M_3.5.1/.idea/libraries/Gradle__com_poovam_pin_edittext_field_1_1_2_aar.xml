@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.poovam:pin-edittext-field:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0dfbb9927d088a7ce3b63e13582e03/jetified-pin-edittext-field-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0dfbb9927d088a7ce3b63e13582e03/jetified-pin-edittext-field-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0dfbb9927d088a7ce3b63e13582e03/jetified-pin-edittext-field-1.1.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b7c5cdf95ddc7c792b27587856e5d4/jetified-pin-edittext-field-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b7c5cdf95ddc7c792b27587856e5d4/jetified-pin-edittext-field-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b7c5cdf95ddc7c792b27587856e5d4/jetified-pin-edittext-field-1.1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.poovam/pin-edittext-field/1.1.2/bafbbcdc025f9c78d9e18e5b39a0399340296568/pin-edittext-field-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.poovam/pin-edittext-field/1.1.2/5594d5b10b985fe41177a0fb7b2815ea3854fa9a/pin-edittext-field-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

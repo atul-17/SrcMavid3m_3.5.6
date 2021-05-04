@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/screen_bg"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:background="@color/appbar_bg"
+        android:text="@string/device_setup2"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/setup_progress_image"
+        android:padding="?attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="52"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/speaker_configure"
+        />
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_setup_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/setting_up_device"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/please_wait_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/pleaseWait"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif-light" />
+
+        <ProgressBar
+            android:id="@+id/setup_progress_bar"
+            style="@style/GradientProgressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:indeterminate="true" />
+    </LinearLayout>
+</LinearLayout>

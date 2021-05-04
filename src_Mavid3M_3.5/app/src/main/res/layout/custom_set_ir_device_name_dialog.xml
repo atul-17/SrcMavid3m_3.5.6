@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/screen_bg">
+
+
+    <RelativeLayout
+        android:id="@+id/rlHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.libre.irremote.utility.MaterialDesignIconView
+            android:id="@+id/miApplianceIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvApplianceName"
+            android:text="@string/mi_Projector"
+            android:textColor="@color/brand_orange"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvApplianceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_regular"
+            android:gravity="center"
+            android:text="Appliance Name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etIRDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:hint="Enter the name of the device"
+        android:textColorHint="@color/grey_400"
+        android:maxLines="1"
+        android:paddingBottom="25dp"
+        android:textColor="@color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/grey_400"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/brand_orange"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vodafone.idtmlib">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".lib.ui.IdGatewayActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="com.vodafone.lib.seclibng.comms.EntryPointHandling"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.vodafone.lib.seclibng.internal.EventsIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <receiver android:name="com.vodafone.lib.seclibng.internal.AlarmReceiver" />
+
+        <receiver
+            android:name="com.vodafone.idtmlib.lib.AutoRefreshTokenJobService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.vodafone.idtmlib.lib.AUTO_REFRESH" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

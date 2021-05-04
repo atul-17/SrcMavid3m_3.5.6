@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center|left"
+    android:background="@color/screen_bg">
+
+    <LinearLayout
+        android:id="@+id/id_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:gravity="center|left"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:weightSum="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/id_txt_heading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".95"
+            android:text="@string/airtel_set_top_box"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="24sp"
+            android:src="@drawable/ic_delete"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:id="@+id/ivDelete"
+            />
+
+        <ImageView
+            android:id="@+id/id_image_goto"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="right"
+            android:src="@drawable/right_arrow1" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white" />
+
+
+</RelativeLayout>

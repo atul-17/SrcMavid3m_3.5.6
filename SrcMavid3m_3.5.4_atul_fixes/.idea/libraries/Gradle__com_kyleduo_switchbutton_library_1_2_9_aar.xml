@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kyleduo.switchbutton:library:1.2.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16db9de32a2195dc77b330f2f4db9517/jetified-library-1.2.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16db9de32a2195dc77b330f2f4db9517/jetified-library-1.2.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16db9de32a2195dc77b330f2f4db9517/jetified-library-1.2.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/1.2.9/4168695bde4a1779085cbf524cf6587f628c79f/library-1.2.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/1.2.9/780e4e064737c9f53c33db74592bf78249121d74/library-1.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+        <device id="4in WVGA (Nexus S)" />
+        <device id="3.7in WVGA (Nexus One)" />
+        <device id="3.3in WQVGA" />
+        <device id="4.7in WXGA" />
+        <device id="5.1in WVGA" />
+        <device id="5.4in FWVGA" />
+        <device id="3.2in HVGA slider (ADP1)" />
+        <device id="2.7in QVGA" />
+        <device id="pixel_2" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="atul_app_compatiblity" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0995f666-e0ac-4df8-81a9-44ec8717df50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Android_udemy_app_todolist/.idea/Android_udemy_app_todolist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/.idea/modules/GIgaset_1.0.7.3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/.idea/modules/app/GIgaset_1.0.7.3.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/16B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/1p15_B with LeakCanary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/DectSourceCode_0.0.22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/DectSourceCode_0.0.23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/DectSourceCode_0.0.25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/GigaSetSourceCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/GigasetRelease.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/GnY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Libre2 generic app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Libre_2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Libre_Alexa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Libre_Alexa2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Src_Libre_Alexa_0.0.17_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Src_Libre_Alexa_0.0.20_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/Src_Libre_Alexa_0.0.21_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/SvnCheckout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GIgaset_1.0.7.3/SvnCheckoutForMerge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/.idea/modules/app/Gigaset_Spotify_Releases_Adding_ES_IT.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/16B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/1p15_B with LeakCanary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GigaSetSourceCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GigasetRelease.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Gigaset_Spotify_Releases_Adding_ES_IT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GnY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre2 generic app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_Alexa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_Alexa2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.17_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.20_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.21_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/SvnCheckout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/SvnCheckoutForMerge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/.idea/modules/app/Gigaset_Spotify_Releases_Adding_ES_IT.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/16B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/1p15_B with LeakCanary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.23.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/DectSourceCode_0.0.25.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GigaSetSourceCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GigasetRelease.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Gigaset_Spotify_Releases_Adding_ES_IT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/GnY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre2 generic app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_Alexa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Libre_Alexa2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.17_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.20_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/Src_Libre_Alexa_0.0.21_pri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/SvnCheckout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Latest_Code_1.0.7/Gigaset_Latest_Imprint_Fixes_1.0.7_latestCode/Gigaset_1.0.5_splashscreenfixes/Gigaset_Spotify_Releases_Adding_ES_IT/SvnCheckoutForMerge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gigaset_Spotify_Releases_LatestCode_1.0.7_versioncode8/.idea/Gigaset_Spotify_Releases_LatestCode_1.0.7_versioncode8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Latest_Alexa_0.0.20+SecureClient/.idea/modules/Latest_Alexa_0.0.20+SecureClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Latest_Alexa_0.0.20+SecureClient/.idea/modules/app/Latest_Alexa_0.0.20+SecureClient.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Latest_Alexa_0.0.20+SecureClient/Libre_Alexa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Latest_Alexa_0.0.20+SecureClient/SvnCheckout.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Latest_Alexa_0.0.20+SecureClient/SvnCheckoutForMerge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../libre-1.0-voice-app_new_amz_sdk_manual_settings/.idea/libre-1.0-voice-app_new_amz_sdk_manual_settings.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[2c6eeb4a]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rLsfugPndzEbbD7n6jEYO07gyV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="oneplus-ac2001-2c6eeb4a" />
+    <property name="DEBUGGABLE_PROCESS" value="com.libre.irremote" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.libre.irremote.viewmodels" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/libre/irremote/Constants" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="src_Mavid3M_3.5.1.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0995f666-e0ac-4df8-81a9-44ec8717df50" name="Default Changelist" comment="" />
+      <created>1618766810303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618766810303</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="747" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1618999176411">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="747" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618985916119" />
+    <state x="747" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1618999176411" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619106134895">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1619106134895" />
+    <state x="642" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1618767082046">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="642" y="338" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1618767082046" />
+    <state x="555" y="244" key="AndroidProcessChooserDialog" timestamp="1619276141382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="555" y="244" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1619276141382" />
+    <state x="740" y="293" key="AndroidProcessChooserDialog/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992369689" />
+    <state x="740" y="293" key="AndroidProcessChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1619174925432" />
+    <state width="1396" height="-40" key="GridCell.Tab.0.bottom" timestamp="1619279881962">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="-40" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619279881962" />
+    <state width="1876" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992456356" />
+    <state width="1876" height="124" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619271392412" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1619165926319" />
+    <state width="1396" height="-40" key="GridCell.Tab.0.center" timestamp="1619279881960">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="-40" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1619279881960" />
+    <state width="1876" height="134" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992456354" />
+    <state width="1876" height="124" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619271392410" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1619165926314" />
+    <state width="1396" height="-40" key="GridCell.Tab.0.left" timestamp="1619279881959">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="-40" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1619279881959" />
+    <state width="1876" height="134" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992456352" />
+    <state width="1876" height="124" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619271392408" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1619165926281" />
+    <state width="1396" height="-40" key="GridCell.Tab.0.right" timestamp="1619279881961">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="-40" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1619279881961" />
+    <state width="1876" height="134" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992456355" />
+    <state width="1876" height="124" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619271392411" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1619165926316" />
+    <state width="1396" height="224" key="GridCell.Tab.1.bottom" timestamp="1619276287471">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="224" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1619276287471" />
+    <state width="1876" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992430769" />
+    <state width="1876" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1619174970456" />
+    <state width="1396" height="225" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1619114528486" />
+    <state width="1876" height="376" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1618907661059" />
+    <state width="1396" height="224" key="GridCell.Tab.1.center" timestamp="1619276287469">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="224" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1619276287469" />
+    <state width="1876" height="376" key="GridCell.Tab.1.center/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992430767" />
+    <state width="1876" height="279" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1619174970454" />
+    <state width="1396" height="225" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1619114528482" />
+    <state width="1876" height="376" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1618907661057" />
+    <state width="1396" height="224" key="GridCell.Tab.1.left" timestamp="1619276287468">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="224" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1619276287468" />
+    <state width="1876" height="376" key="GridCell.Tab.1.left/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992430766" />
+    <state width="1876" height="279" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1619174970453" />
+    <state width="1396" height="225" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1619114528480" />
+    <state width="1876" height="376" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1618907661054" />
+    <state width="1396" height="224" key="GridCell.Tab.1.right" timestamp="1619276287470">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="224" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1619276287470" />
+    <state width="1876" height="376" key="GridCell.Tab.1.right/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618992430768" />
+    <state width="1876" height="279" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1619174970455" />
+    <state width="1396" height="225" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1619114528485" />
+    <state width="1876" height="376" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1618907661058" />
+    <state x="742" y="62" width="568" height="613" key="find.popup" timestamp="1619274104921">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="742" y="62" width="568" height="613" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1619274104921" />
+    <state x="1221" y="74" width="644" height="735" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1619270616637" />
+    <state x="625" y="241" width="894" height="677" key="search.everywhere.popup" timestamp="1619269639196">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="201" width="670" height="564" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1619106067057" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1618982788038" />
+    <state x="625" y="241" width="894" height="677" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1619269639196" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>326</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>325</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>355</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>303</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>300</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/utility/UIRelatedClass.kt</url>
+          <line>301</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>464</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>463</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>457</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>456</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>452</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>435</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/irActivites/irMultipleRemotes/IRAddOrSelectRemotesActivity.kt</url>
+          <line>437</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/libre/irremote/DeviceListFragment.java</url>
+          <line>1357</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

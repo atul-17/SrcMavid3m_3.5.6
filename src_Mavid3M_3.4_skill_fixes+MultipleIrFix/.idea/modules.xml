@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.iml" filepath="$PROJECT_DIR$/.idea/modules/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libresdk/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.libresdk.iml" filepath="$PROJECT_DIR$/.idea/modules/libresdk/src_Mavid3M_3.4_skill_fixes+MultipleIrFix.libresdk.iml" />
+    </modules>
+  </component>
+</project>

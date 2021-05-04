@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appbar_bg">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_heading_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="?attr/actionBarSize"
+                    android:layout_marginRight="?attr/actionBarSize"
+                    android:text="Appliance Name "
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:background="@color/appbar_bg"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="0dp"
+            android:layout_weight="1.7"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:background="@android:color/transparent"
+            android:text="Name:"
+            android:id="@+id/tvDeviceName"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:enabled="false"
+            app:fontFamily="sans-serif" />
+
+        <com.libre.irremote.utility.MaterialDesignIconView
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/brand_orange"
+            android:text="@string/mi_edit_icon"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/appbar_bg"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Model:"
+        android:enabled="false"
+        android:id="@+id/tvDeviceModel"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:fontFamily="sans-serif" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/appbar_bg"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:id="@+id/tvDeviceManufactureName"
+        android:text="Manufacture Name:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:fontFamily="sans-serif" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:enabled="false"
+        android:background="@drawable/multi_color_gradeint_rounded_corners_button"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:fontFamily="@font/quicksand_regular"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

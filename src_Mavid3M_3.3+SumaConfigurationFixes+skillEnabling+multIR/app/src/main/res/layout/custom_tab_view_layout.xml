@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/rlGotoNextActivity"
+        android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvApplianceType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:maxWidth="200dp"
+                android:fontFamily="@font/quicksand_regular"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:layout_centerHorizontal="true"
+                android:text="Television"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvApplianceType"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/quicksand_regular"
+                android:gravity="center"
+                android:maxWidth="200dp"
+                android:layout_marginTop="3dp"
+                android:text="Not set"
+                android:id="@+id/tvBrandName"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ivShowBrands"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/arrow_down" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

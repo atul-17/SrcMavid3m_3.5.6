@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.libre.irremote"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <queries>
+        <package android:name="in.amazon.mShop.android.shopping" />
+    </queries>
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:name="com.libre.irremote.MavidApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+
+
+
+        <activity
+            android:name="com.libre.irremote.alexa_signin.BLEYesAlexaLoginNoHomeScreen"
+            android:screenOrientation="portrait" />
+        <!--        <activity-->
+        <!--            android:name=".BluetoothActivities.MavidBtDiscoverActivity"-->
+        <!--            android:screenOrientation="portrait" />-->
+
+        <activity
+            android:name="com.libre.irremote.OtherSetupApproach.OSHotSpotSuccessAlexaLogin"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRRestoreSelectionActivity"
+            android:screenOrientation="portrait" />
+        <!--        <activity-->
+        <!--            android:name=".DeviceListFragment"-->
+        <!--            android:label="@string/home"-->
+        <!--            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.libre.irremote.SAC.WifiConfigureActivity"
+            android:label="@string/configure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.SplashScreenActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.libre.irremote.SAC.SACInstructionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.alexa_signin.AlexaSignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.alexa_signin.AlexaLangUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.alexa_signin.AlexaThingsToTryDoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.alexa_signin.AlexaThingsToTrySignOutActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRTvpBrandActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRRemoteSelectionInstrActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.amazon.identity.auth.device.workflow.WorkflowActivity"
+            android:allowTaskReparenting="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter><action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- android:host must use the full package name found in Manifest General Attributes -->
+                <data
+                    android:host="${applicationId}"
+                    android:scheme="amzn" />
+
+
+
+
+            </intent-filter>
+
+        </activity>
+
+
+        <!--        <meta-data-->
+        <!--            android:name="io.fabric.ApiKey"-->
+        <!--            android:value="ffafecf7ae38b48966e47d4c723fa9ddf6544ebb" />-->
+
+        <activity
+            android:name="com.libre.irremote.SAC.WifiYesAlexaLoginNoHomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.DeviceSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.SAC.ConnectionToSACActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.SAC.SACInstructionBlinkingCheckActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.libre.irremote.BLEApproach.BLEScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.BLEApproach.HotSpotOrSacSetupActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.libre.irremote.BLEApproach.BluetoothLeService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.libre.irremote.OtherSetupApproach.BLEHotSpotCredentialsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.BLE_SAC.BLEConfigureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.OtherSetupApproach.WifiHotSpotOrSacSetupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.SAC.BLEConnectToWifiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.OtherSetupApproach.WifiHotSpotCredentialsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.MavidHomeTabsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.MavidBLEConfigureSpeakerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.MavidWifiConfigureSpeakerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.ShowWifiListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.irActivites.IRLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.irActivites.IRRegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.irActivites.IREmailVerificationActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name="com.libre.irremote.irActivites.ShowAllIrDeviceListActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRShowAppliancesActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name="com.libre.irremote.irActivites.ShowIRDevicesManufacturesMakesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.ShowIRDevicesModelsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.libre.irremote.irActivites.IRSignUpLoginWebViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRAddRemoteVPActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRSelectTvOrTVPOrAcRegionalBrandsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRTvOrTvpRemoteSelectionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.libre.irremote.irActivites.IRAcRemoteSelectionActivity"
+            android:screenOrientation="portrait" />
+
+        <!--irMultipleremotes-->
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRAcApplianceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRAddOrSelectRemotesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRRemoteSelectionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRRemoteVPBaseActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRSelectionDevicesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRTelevisionApplianceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".irActivites.irMultipleRemotes.IRTVPApplianceActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

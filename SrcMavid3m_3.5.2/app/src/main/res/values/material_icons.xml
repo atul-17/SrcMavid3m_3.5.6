@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="mi_Projector">&#xf42e;</string>
+
+    <string name="mi_photo_frame">&#xe432;</string>
+
+    <string name="mi_edit_icon"> &#xe254; </string>
+
+    <string name="mi_remote">&#xe8c7;</string>
+
+    <string name="mi_dailpad"> &#xf61c;</string>
+
+    <string name="mi_ac"> &#xF001B;</string>
+
+    <string name="mi_delete"> &#xF01B4; </string>
+
+</resources>

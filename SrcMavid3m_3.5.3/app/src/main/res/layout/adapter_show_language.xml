@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatRadioButton
+    android:id="@+id/rbAlexaLang"
+    style="@style/radiobutton"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:minWidth="150dp"
+    android:text="@string/engUSLang"
+    android:visibility="visible"
+    android:button="@null"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

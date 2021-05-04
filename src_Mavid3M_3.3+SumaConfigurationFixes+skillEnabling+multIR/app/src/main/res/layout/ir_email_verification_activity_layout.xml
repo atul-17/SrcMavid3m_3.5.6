@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_light_grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="M A V I D"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:fontFamily="@font/quicksand_regular" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/quicksand_regular"
+        android:gravity="center"
+        android:text="Email verification code has been sent to your Email!"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="6"
+
+        android:orientation="horizontal">
+
+        <com.poovam.pinedittextfield.SquarePinField
+            android:id="@+id/squarePinFieldOtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:fieldColor="@color/white"
+            app:highlightColor="@color/brand_orange"
+            app:noOfFields="6"
+            />
+
+
+    </LinearLayout>
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/btnVerify"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/custom_rouned_corners_white_buttons"
+        android:fontFamily="@font/quicksand_regular"
+        android:gravity="center"
+        android:text="Verify"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:spinning_bar_color="@color/white"
+        app:spinning_bar_padding="4dp"
+        app:spinning_bar_width="4dp" />
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="65dp"
+                android:id="@+id/tvCountdownTimer"
+                android:text="Time Remaining : 1:00"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/brand_orange"
+                />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_regular"
+            android:gravity="center"
+            android:layout_marginTop="65dp"
+            android:id="@+id/tvResendVerificationCode"
+            android:text="Resend Verification Code?"
+            android:textColor="@color/brand_orange"
+            android:visibility="gone"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorName="BallClipRotateIndicator"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        style="@style/AVLoadingIndicatorView"
+        app:indicatorColor="@color/btn_app_mid_pink"
+        />
+
+</RelativeLayout>

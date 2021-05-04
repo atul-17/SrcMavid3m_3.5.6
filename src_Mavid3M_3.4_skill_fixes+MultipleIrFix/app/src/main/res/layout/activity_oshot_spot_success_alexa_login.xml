@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- not used -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.libre.irremote.SAC.WifiYesAlexaLoginNoHomeScreen">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/back_icon"
+            android:visibility="gone"/>
+        <ImageButton
+            android:id="@+id/homebutton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:background="@drawable/vood_home" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/speaker_setup_title"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:theme="@style/LargeTextStyle" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_activescenes_toolbar_icon"
+                android:text="Toolbar Title"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/margin"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/dark_grey"></View>
+
+    <ImageView
+        android:id="@+id/stepCount"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/margin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/step4" />
+
+    <LinearLayout
+        android:id="@+id/refImageLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepCount"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/refPaddingLeft"
+        android:paddingRight="@dimen/refPaddingRight">
+
+        <ImageView
+            android:id="@+id/refPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/device_configured" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/deviceConnectionStatus"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:id="@+id/instruction"
+        android:visibility="invisible"
+        android:text="@string/picoShouldBlink"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deviceConnected"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/deviceConnectionStatus"
+        android:textSize="16sp"
+        android:layout_above="@+id/btnLyt"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="40dp"
+        android:id="@+id/btnLyt"
+        android:paddingRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/LargeSirenaButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:background="@drawable/sirena_button"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:text="@string/alexaLogin"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

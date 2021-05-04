@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg">
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbarView"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/tvRemoteSelectionFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbarView"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llNoData"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_regular"
+            android:gravity="center"
+            android:text="No data available.Please try a different Brand or come back later"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center"
+            android:id="@+id/llGoBack"
+            android:background="@drawable/rounded_edges_gradient_button"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white"
+                android:layout_gravity="right|center"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Go Back"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/quicksand_regular"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

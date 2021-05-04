@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameContent"
+            android:visibility="gone"
+            android:layout_below="@+id/toolbar"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/llRemoteUi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibPowerButton"
+                    android:layout_width="@dimen/circular_buttons"
+                    android:layout_height="@dimen/circular_buttons"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/red_circular_active_inactive_button"
+                    android:src="@drawable/ic_active_inactive_power_btns"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibMoreButton"
+                    android:layout_width="@dimen/circular_buttons"
+                    android:layout_height="@dimen/circular_buttons"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circular_white_grey_button"
+                    android:src="@drawable/ic_dialpad_black"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibSourceButton"
+                    android:layout_width="@dimen/circular_buttons"
+                    android:layout_height="@dimen/circular_buttons"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circular_white_grey_button"
+                    android:src="@drawable/ic_exit_black"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvHomeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvMenuButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:text="Menu"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvOptionButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:text="Option"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvGuideButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:text="Guide"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvLangButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:text="Lang"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frameVolMuteReplayBtns"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/rounded_white_button">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/ibVolumeMuteButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/ic_vol_mute_active_inactive_btn" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/ibBackButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ic_active_inactive_replay_btn" />
+
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/framePrevNextBtn"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rounded_white_button">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/ibPrevButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/ic_active_inactive_prev_btn" />
+
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/ibNextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/ic_next_active_inactive_btn" />
+
+
+                    </RelativeLayout>
+
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:id="@+id/frameVolPlusMinusBtns"
+                    android:layout_width="50dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/rounded_white_button">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/tvVolPlusButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/ic_plus_active_inactive_btn" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvVOlText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:fontFamily="@font/quicksand_regular"
+                            android:gravity="center"
+                            android:text="VOL"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/tvVolMinusButton"
+                            android:layout_width="15dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/ic_minus_active_inactive_btn" />
+
+                    </RelativeLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/rounded_white_button"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/tvChUpButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/ic_arrow_up_thin_active_inactive_btns" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvCHChange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:fontFamily="@font/quicksand_regular"
+                            android:gravity="center"
+                            android:text="CH"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/tvChDownButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/ic_arrow_thin_down_active_inactive" />
+
+                    </RelativeLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameCircularArrowUpDownLeftRightBtns"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circular_white_grey_button">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvOkButton"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/grey_circular_button_drawble"
+                            android:fontFamily="@font/quicksand_regular"
+                            android:gravity="center"
+                            android:text="OK"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivLeftButton"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_left_active_inactive" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivRightButton"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_arrow_right_active_inactive" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivUpButton"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_arrow_up_active_inactive" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivDownButton"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_arrow_down_active_inactive_btn" />
+                    </RelativeLayout>
+                </FrameLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvBlueButton"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/ic_active_inactive_blue_color_btns"
+                    android:enabled="true"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvGreenButton"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/green_rounded_active_inactive_buttons"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvYellowButton"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/yellow_color_rounded_active_inactive_btns"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvRedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="3"
+                    android:background="@drawable/red_color_rounded_active_inactive_btns"
+                    android:fontFamily="@font/quicksand_regular"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibRewindButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="right"
+                    android:src="@drawable/ic_rewind_black" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibPlayButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_play_black" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibPauseButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_pause_black" />
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibFastForwardButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_forward_black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibInfoButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_info_black" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibStopButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_stop_black" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvExitButtonAlt"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button"
+                    android:gravity="center"
+                    android:src="@drawable/ic_exit_black"
+                    android:text="Exit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:id="@+id/rlRecButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/custom_rounded_corner_active_inactive_button">
+
+                    <FrameLayout
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/black_circular_drawable"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="REC"
+                            android:textColor="@color/white"
+                            android:textSize="8sp" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

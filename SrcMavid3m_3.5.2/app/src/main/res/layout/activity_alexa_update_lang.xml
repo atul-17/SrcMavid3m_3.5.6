@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appbar_bg">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_weight=".25"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_arrow_back_white" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.3"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/langPref"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:fontFamily="sans-serif-medium" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_done"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:layout_weight=".45"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Change"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/appbarLayout"
+        android:background="@color/brand_orange" />
+
+    <TextView
+        android:id="@+id/tvChooseLangLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/subTitleLangText"
+        android:textColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/hour_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvChooseLangLabel"
+        android:orientation="horizontal">
+
+    </RadioGroup>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_alexa_language_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvChooseLangLabel"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="90dp" />
+
+    <RadioGroup
+        android:id="@+id/chooseLangRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/radio_group_bg"
+        android:orientation="vertical"
+        android:padding="0px">
+
+        <RadioButton
+            android:id="@+id/enUsRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:minWidth="150dp"
+            android:text="@string/engUSLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/engUkRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/engUKLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/engINRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/engINLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/deutschRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/GermanLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/japanRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/japaneseLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/spanishRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/spanishLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/italianRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/italianLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/frenchRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/frenchLang"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/hindiRb"
+            style="@style/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:minWidth="150dp"
+            android:text="@string/hindiLang"
+            android:visibility="gone" />
+
+    </RadioGroup>
+
+</RelativeLayout>

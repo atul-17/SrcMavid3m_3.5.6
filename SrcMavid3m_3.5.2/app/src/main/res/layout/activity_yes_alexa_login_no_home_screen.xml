@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    tools:context="com.libre.irremote.SAC.WifiYesAlexaLoginNoHomeScreen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appbar_bg">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="?attr/actionBarSize"
+                    android:layout_marginRight="?attr/actionBarSize"
+                    android:text="Speaker Setup"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_home"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="16dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/home_icon" />
+
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/appbarLayout"
+        android:id="@+id/margin"
+        android:background="@color/brand_orange"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/margin"
+        android:layout_marginTop="100dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:id="@+id/tv_alexa_msg"
+            android:text="@string/login_with_amazon_msg"
+            android:textColor="@color/white" />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Would you like to do Alexa Login?"-->
+<!--            android:gravity="center"-->
+<!--            android:id="@+id/alexaOption"-->
+<!--            android:layout_below="@+id/deviceConnectionStatus"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+
+<!--        android:text=""-->
+
+<!--        android:text=""-->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/tv_alexa_msg"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNext"
+               android:background="@drawable/rounded_edges_gradient_button"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:enabled="true"
+                android:text="Yes,Alexa Login"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/noalexalogin"
+                android:enabled="true"
+                android:textSize="14sp"
+                android:minWidth="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                android:text="No, I'm done with setup"
+                android:background="@drawable/app_btn_selector"
+                android:textColor="@color/app_btn_textcolor_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:scaleType="fitCenter"
+            android:layout_marginTop="24dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="24dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/device_setup_success"
+            android:layout_width="wrap_content"
+            android:id="@+id/iv_device_setup_success"
+            android:layout_below="@+id/LinearLayout1"
+            android:layout_height="wrap_content" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:layout_below="@+id/iv_device_setup_success"
+            android:text="@string/congrats"
+            android:id="@+id/tv_congrats"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:layout_below="@+id/tv_congrats"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/device_setup_successfull"
+            android:textColor="@color/app_text_color_disabled" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

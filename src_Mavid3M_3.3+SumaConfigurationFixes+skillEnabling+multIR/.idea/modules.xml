@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.iml" filepath="$PROJECT_DIR$/.idea/modules/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libresdk/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.libresdk.iml" filepath="$PROJECT_DIR$/.idea/modules/libresdk/src_Mavid3M_3.3+SumaConfigurationFixes+skillEnabling+multIR.libresdk.iml" />
+    </modules>
+  </component>
+</project>

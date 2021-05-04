@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/screen_bg">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Bluetooth Devices"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:textSize="20sp"-->
+    <!--android:id="@+id/btText"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/btText"-->
+    <!--android:text="Paired Devices"-->
+    <!--android:textColor="@color/dark_gray"-->
+    <!--android:textSize="18sp"-->
+    <!--android:layout_marginLeft="20dp"/>-->
+    <LinearLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/iv_bluetooth_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/bluetooth_colored_icon"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/line"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/short_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/image"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:singleLine="false"
+                android:textColor="@color/white"
+                android:text="item textshflllllllll"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/short_content1"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/image"
+                android:layout_weight="1"
+                android:gravity="left"
+               android:singleLine="false"
+                android:textColor="@color/white"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/advancedSettings"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:textSize="10sp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:visibility="visible"/>
+                <!--android:background="@drawable/black_button_rounded_corner"-->
+                <!--/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ledimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainlayout"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mainlayout"
+        android:background="@color/dark_gray">
+
+    </View>
+</RelativeLayout>

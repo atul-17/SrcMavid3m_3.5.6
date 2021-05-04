@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sceneEdit"
+
+        >
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:text="Refresh"
+            android:textAllCaps="false"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/sirena_button"
+            />
+
+
+        <TextView
+            android:id="@+id/devicename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Device Name"
+            android:inputType="text|textNoSuggestions"
+            android:maxLength="50"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
